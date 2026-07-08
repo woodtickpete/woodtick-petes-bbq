@@ -90,3 +90,10 @@ footer{
 .navbar a:hover{
     color:white;
 }
+.product-card{
+    background:#4a2d1c;
+    padding:25px;
+    border-radius:12px;
+    margin-top:20px;
+    border:2px solid #c89b3c;
+}
