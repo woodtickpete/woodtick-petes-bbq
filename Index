@@ -10,6 +10,19 @@
 </head>
 <body>
 
+<nav class="navbar">
+    <a href="#">Home</a>
+    <a href="#about">About</a>
+    <a href="#sauce">Our Sauce</a>
+    <a href="#reviews">Reviews</a>
+    <a href="#buy">Where to Buy</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<header>
+    <img src="banner.png" class="banner" alt="Woodtick Pete's BBQ Sauce">
+</header>
+
 <header>
     <img src="banner.png" alt="Woodtick Pete's BBQ Sauce Banner" class="banner">
 </header>
