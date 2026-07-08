@@ -26,7 +26,31 @@
 <header>
     <img src="banner.png" alt="Woodtick Pete's BBQ Sauce Banner" class="banner">
 </header>
+<section class="welcome">
 
+<h1>Welcome to Woodtick Pete's BBQ Sauce</h1>
+
+<h2>REAL SMOKE. REAL FLAVOR. REAL GOOD.</h2>
+
+<p>
+From Our Pit to Your Plate.
+</p>
+
+<p>
+Proudly Made by a Veteran • Made with Real Honey • Small Batch Crafted
+</p>
+
+<p>
+<a class="button" href="mailto:dustylilly6@gmail.com">
+📧 Contact Pete to Order
+</a>
+
+<a class="button" href="https://www.facebook.com/share/18a9TvAuk4/">
+📘 Follow Us on Facebook
+</a>
+</p>
+
+</section>
 <section class="hero">
     <h1>REAL SMOKE. REAL FLAVOR. REAL GOOD.</h1>
     <h2>From Our Pit to Your Plate.</h2>
