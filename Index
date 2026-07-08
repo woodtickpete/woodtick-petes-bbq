@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Woodtick Pete's BBQ Sauce</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<header>
+    <img src="banner.png" alt="Woodtick Pete's BBQ Sauce Banner" class="banner">
+</header>
+
+<section class="hero">
+    <h1>REAL SMOKE. REAL FLAVOR. REAL GOOD.</h1>
+    <h2>From Our Pit to Your Plate.</h2>
+
+    <p class="tagline">
+        🇺🇸 Proudly Made by a Veteran<br>
+        🍯 Made with Real Honey • Small Batch
+    </p>
+
+    <a class="button" href="https://www.facebook.com/share/18a9TvAuk4/">
+        Visit Us on Facebook
+    </a>
+
+    <a class="button" href="mailto:dustylilly6@gmail.com">
+        Contact Pete to Order
+    </a>
+</section>
+
+<section id="about">
+<h2>About Pete</h2>
+
+<p>
+Woodtick Pete's BBQ Sauce is proudly made by a veteran who believes
+great barbecue starts with quality ingredients, patience, and pride.
+Every batch is handcrafted with real honey and bold smoky flavor.
+</p>
+</section>
+
+<section id="sauce">
+<h2>Our Sauce</h2>
+
+<ul>
+<li>Made with Real Honey</li>
+<li>Small Batch Crafted</li>
+<li>Bold Smoky Flavor</li>
+<li>Perfect for Ribs, Chicken, Pork, Burgers & Wings</li>
+</ul>
+
+</section>
+
+<section id="reviews">
+
+<h2>Customer Favorites</h2>
+
+<p>
+★★★★★ "Best BBQ sauce I've ever had!"
+</p>
+
+<p>
+★★★★★ "Our family loves it!"
+</p>
+
+</section>
+
+<section id="buy">
+
+<h2>Where To Buy</h2>
+
+<p>
+Contact Pete by Facebook or email to place an order.
+</p>
+
+</section>
+
+<section id="contact">
+
+<h2>Contact</h2>
+
+<p>
+📧
+<a href="mailto:dustylilly6@gmail.com">
+dustylilly6@gmail.com
+</a>
+</p>
+
+<p>
+<a href="https://www.facebook.com/share/18a9TvAuk4/">
+Woodtick Pete's BBQ Sauce Facebook
+</a>
+</p>
+
+</section>
+
+<footer>
+
+<p>
+© 2026 Woodtick Pete's BBQ Sauce
+</p>
+
+</footer>
+
+</body>
+</html>
