@@ -119,7 +119,31 @@ Photos of Woodtick Pete's BBQ Sauce, smoked ribs, chicken, pulled pork, burgers,
 <img src="banner.png" alt="Woodtick Pete's BBQ" style="width:100%;border-radius:12px;">
 
 </section>
+<section id="contact">
+
+<h2>Contact Pete to Order</h2>
+
 <p>
+Ready to try Woodtick Pete's BBQ Sauce?
+</p>
+
+<p>
+Click below to place an order or ask a question.
+</p>
+
+<p>
+<a class="button" href="mailto:dustylilly6@gmail.com">
+📧 Email Pete to Order
+</a>
+</p>
+
+<p>
+<a class="button" href="https://www.facebook.com/share/18a9TvAuk4/" target="_blank">
+📘 Visit Us on Facebook
+</a>
+</p>
+
+</section>p>
 Contact Pete by Facebook or email to place an order.
 </p>
 
