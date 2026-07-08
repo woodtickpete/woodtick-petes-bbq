@@ -70,3 +70,23 @@ footer{
     padding:25px;
     color:#ccc;
 }
+.navbar{
+    background:#1d120b;
+    text-align:center;
+    padding:15px;
+    position:sticky;
+    top:0;
+    z-index:1000;
+}
+
+.navbar a{
+    color:#FFD166;
+    text-decoration:none;
+    margin:0 18px;
+    font-weight:bold;
+    font-size:18px;
+}
+
+.navbar a:hover{
+    color:white;
+}
