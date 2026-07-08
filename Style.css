@@ -97,3 +97,24 @@ footer{
     margin-top:20px;
     border:2px solid #c89b3c;
 }
+.welcome{
+    text-align:center;
+    padding:50px 20px;
+    background:#352116;
+}
+
+.welcome h1{
+    color:#FFD166;
+    font-size:42px;
+    margin-bottom:10px;
+}
+
+.welcome h2{
+    color:white;
+    font-size:28px;
+    margin-bottom:20px;
+}
+
+.welcome p{
+    font-size:20px;
+}
