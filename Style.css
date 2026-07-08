@@ -118,3 +118,18 @@ footer{
 .welcome p{
     font-size:20px;
 }
+.feature-grid{
+    display:flex;
+    flex-wrap:wrap;
+    gap:20px;
+    justify-content:center;
+}
+
+.feature{
+    background:#4b2e1f;
+    border:2px solid #c89b3c;
+    border-radius:12px;
+    padding:20px;
+    width:260px;
+    text-align:center;
+}
