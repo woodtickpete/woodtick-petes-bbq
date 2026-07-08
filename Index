@@ -128,7 +128,30 @@ Every batch is handcrafted with real honey and bold smoky flavor.
 </section><section id="products">
 
 <h2>Featured Products</h2>
+<section id="why">
 
+<h2>Why Choose Woodtick Pete's?</h2>
+
+<div class="feature-grid">
+
+<div class="feature">
+<h3>🇺🇸 Veteran Owned</h3>
+<p>Proudly crafted by a veteran with a passion for great barbecue.</p>
+</div>
+
+<div class="feature">
+<h3>🍯 Real Honey</h3>
+<p>Made with real honey for a sweet, smoky flavor you'll remember.</p>
+</div>
+
+<div class="feature">
+<h3>🔥 Small Batch</h3>
+<p>Every batch is carefully made for consistent, bold flavor.</p>
+</div>
+
+</div>
+
+</section>
 <div class="product-card">
 
 <h3>🍯 Honey BBQ Sauce</h3>
