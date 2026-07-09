@@ -135,3 +135,13 @@ footer{
     width:260px;
     text-align:center;
 }
+#bestsellers{
+    text-align:center;
+    padding:40px 20px;
+}
+
+#bestsellers h2{
+    color:#FFD166;
+    font-size:32px;
+    margin-bottom:20px;
+}
