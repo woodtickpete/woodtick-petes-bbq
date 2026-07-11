@@ -193,16 +193,7 @@ body{
     margin:20px auto;
 }
 
-nav{
-    display:flex;
-    flex-wrap:wrap;
-    justify-content:center;
-    gap:12px;
-}
 
-nav a{
-    font-size:18px;
-    padding:10px;
 }
 
 .product-card,
