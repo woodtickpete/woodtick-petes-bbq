@@ -152,20 +152,28 @@ body{
     padding:0;
     margin:0;
 }
-    .navbar{
+    .menu-toggle{
+    display:block;
+    margin:15px auto;
+    font-size:24px;
+}
+
+#nav-links{
+    display:none;
+    width:100%;
+}
+
+#nav-links.show{
     display:flex;
-    flex-wrap:wrap;
-    justify-content:center;
+    flex-direction:column;
     align-items:center;
-    gap:12px;
-    padding:15px;
 }
 
-.navbar a{
-    font-size:18px;
-    padding:8px;
+#nav-links a{
+    display:block;
+    padding:12px;
+    font-size:20px;
 }
-
 .hero{
     display:block;
     text-align:center;
