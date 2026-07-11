@@ -86,7 +86,9 @@ footer{
     font-weight:bold;
     font-size:18px;
 }
-
+.menu-toggle{
+    display:none;
+}
 .navbar a:hover{
     color:white;
 }
