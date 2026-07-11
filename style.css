@@ -152,6 +152,19 @@ body{
     padding:0;
     margin:0;
 }
+    .navbar{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items:center;
+    gap:12px;
+    padding:15px;
+}
+
+.navbar a{
+    font-size:18px;
+    padding:8px;
+}
 
 .hero{
     display:block;
