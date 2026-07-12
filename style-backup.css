@@ -106,7 +106,7 @@ footer{
 }
 
 
-.welcome h1{
+}.welcome h1{
     color:#FFD166;
     font-size:28px;
     margin-bottom:10px;
@@ -231,51 +231,4 @@ h3{
     font-size:22px;
 }
 
-}
-/* ===== Version 2 Improvements ===== */
-
-.hero {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    gap: 40px;
-}
-
-.hero img {
-    max-width: 500px;
-    width: 100%;
-    border-radius: 12px;
-    box-shadow: 0 8px 20px rgba(0,0,0,.5);
-}
-
-.hero-text {
-    max-width: 500px;
-}
-
-.hero-text h1{
-    font-size:48px;
-    color:#FFD166;
-}
-
-.hero-text p{
-    font-size:22px;
-    line-height:1.6;
-}
-
-.button{
-    transition:.3s;
-}
-
-.button:hover{
-    transform:translateY(-3px);
-}
-
-.product-card{
-    transition:.3s;
-}
-
-.product-card:hover{
-    transform:translateY(-6px);
-    box-shadow:0 10px 25px rgba(0,0,0,.45);
 }
