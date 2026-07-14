@@ -37,8 +37,8 @@ html{
 .hero{
     position:relative;
     text-align:center;
-    overflow:hidden;
-    max-height:700px;
+    overflow:visible;
+    max-height:none;
 }
 
 .hero img{
