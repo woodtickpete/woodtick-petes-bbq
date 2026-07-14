@@ -1,340 +1,225 @@
-I<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Woodtick Pete's BBQ Sauce</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Woodtick Pete's BBQ Sauce</title>
 
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style-v3.css">
 </head>
 
 <body>
-<nav class="navbar">
 
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container">
 
-<div id="nav-links">
-</div>
+        <a class="navbar-brand fw-bold" href="#">
+            Woodtick Pete's BBQ
+        </a>
+
+        <button class="navbar-toggler" type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav">
+
+            <span class="navbar-toggler-icon"></span>
+
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+
+            <ul class="navbar-nav ms-auto">
+
+                <li class="nav-item"><a class="nav-link" href="#story">Our Story</a></li>
+                <li class="nav-item"><a class="nav-link" href="#sauces">Our Sauces</a></li>
+                <li class="nav-item"><a class="nav-link" href="#reviews">Reviews</a></li>
+                <li class="nav-item"><a class="nav-link" href="#buy">Where to Buy</a></li>
+
+            </ul>
+
+        </div>
+
+    </div>
 </nav>
+
 <header class="hero">
 
-<img src="banner.png" alt="Woodtick Pete's BBQ Sauce" style="width:100%; max-width:900px; height:auto; display:block; margin:auto;">
-     
+    <img src="banner.png" class="img-fluid w-100" alt="Woodtick Pete's BBQ Banner">
+
     
-    <div class="hero-text">
-
-        
-        <p> Proudly Veteran Owned</p>
-
-        <p>🍯 Made with Real Honey • Small Batch Crafted</p>
-
-        <p>📍 Cedar Falls, Iowa</p>
-
-        <a href="#buy" class="button">🔥 Order BBQ Sauce Now</a>
-    </div>
 
 </header>
-<section id="sauces">
 
-<h2>🔥 Our Sauces</h2>
 
-<p><strong>🇺🇸 Veteran Owned • Small Batch Crafted • Made in Cedar Falls, Iowa • Real Honey • Bold Smoky Flavor</strong></p>
+ <section id="story" class="container py-5">
 
- <img src="four-sauces.png" alt="Woodtick Pete's Four BBQ Sauces" style="width:100%; max-width:1200px; display:block; margin:auto; border-radius:12px;">
-    
-     
-<br>
+    <h2 class="text-center mb-5">Our Story</h2>
 
-<a class="button" href="#contact">
-Order Now
-</a> 
+    <div class="row align-items-center">
 
+        <div class="col-lg-6">
+
+            <h3>From the 1990s to Today</h3>
+
+            <p>
+                Woodtick Pete started making BBQ sauce back in the 1990s because nothing on the shelf had the bold, smoky flavor he wanted.
+            </p>
+
+            <p>
+                Every batch is proudly handcrafted in Cedar Falls, Iowa using real honey and quality ingredients. As a veteran-owned business, our mission is simple—make amazing BBQ sauce that families will enjoy.
+            </p>
+
+            <p>
+                Small Batch • Real Honey • Veteran Crafted
+            </p>
+
+        </div>
+
+        <div class="col-lg-6 text-center">
+
+            <img src="banner.png" class="img-fluid rounded shadow" alt="Woodtick Pete">
+
+        </div>
+
+    </div>
+
+</section>
+<section id="sauces" class="container py-5">
+
+<h2 class="text-center mb-5">🔥 Our BBQ Sauce Lineup</h2>
+
+<div class="row g-4">
+
+<div class="col-md-6 col-lg-3">
+<div class="card h-100">
+<img src="banner.png" class="card-img-top" alt="Original BBQ">
+<div class="card-body">
+<h5>Original BBQ</h5>
+<p>Bold smoky flavor with a classic finish.</p>
+<a href="#buy" class="btn btn-warning">Order</a>
+</div>
+</div>
+</div>
+
+<div class="col-md-6 col-lg-3">
+<div class="card h-100">
+<img src="banner.png" class="card-img-top" alt="Honey BBQ">
+<div class="card-body">
+<h5>Honey BBQ</h5>
+<p>Sweet real honey blended with rich BBQ spices.</p>
+<a href="#buy" class="btn btn-warning">Order</a>
+</div>
+</div>
+</div>
+
+<div class="col-md-6 col-lg-3">
+<div class="card h-100">
+<img src="banner.png" class="card-img-top" alt="Maple Honey">
+<div class="card-body">
+<h5>Maple Honey BBQ</h5>
+<p>Real maple and honey create an unforgettable flavor.</p>
+<a href="#buy" class="btn btn-warning">Order</a>
+</div>
+</div>
+</div>
+
+<div class="col-md-6 col-lg-3">
+<div class="card h-100">
+<img src="banner.png" class="card-img-top" alt="Honey Pineapple">
+<div class="card-body">
+<h5>Honey Pineapple BBQ</h5>
+<p>A sweet tropical twist with bold smoky BBQ.</p>
+<a href="#buy" class="btn btn-warning">Order</a>
+</div>
+</div>
+</div>
+
+</div>
+
+</section>
+<section id="reviews" class="container py-5">
+    <h2 class="text-center mb-5">⭐⭐⭐⭐⭐ Customer Reviews</h2>
+
+    <div class="row g-4">
+
+        <div class="col-md-4">
+            <div class="card h-100 shadow">
+                <div class="card-body">
+                    <p>"Best BBQ sauce I've ever had! Rich, smoky flavor."</p>
+                    <strong>★★★★★</strong><br>
+                    <small>- Local Customer</small>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card h-100 shadow">
+                <div class="card-body">
+                    <p>"The Honey BBQ is incredible. My family asks for it every cookout."</p>
+                    <strong>★★★★★</strong><br>
+                    <small>- BBQ Fan</small>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card h-100 shadow">
+                <div class="card-body">
+                    <p>"Veteran made and absolutely delicious. Highly recommended!"</p>
+                    <strong>★★★★★</strong><br>
+                    <small>- Happy Customer</small>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+<section id="buy" class="container py-5 text-center">
+
+<h2>📍 Where to Buy</h2>
+
+<p class="lead">
+Woodtick Pete's BBQ Sauce is proudly handcrafted in Cedar Falls, Iowa.
+</p>
+
+<p>
+Visit our Facebook page for the latest locations, events, and ordering information.
+</p>
+
+<a href="https://www.facebook.com/share/18a9TvAuk4/"
+   class="btn btn-warning btn-lg"
+   target="_blank">
+Visit Our Facebook Page
+</a>
 
 </section>
 
-    
+>
+<footer class="bg-dark text-light text-center py-4 mt-5">
 
-
-
-<h2>🔥 Best Seller</h2>
-
-<div class="product-card">
-
-<h3>Woodtick Pete's Original Honey BBQ Sauce</h3>
-
-<p>
-Our signature small-batch BBQ sauce made with real honey for the perfect balance of sweet, smoky, and bold flavor.
-</p>
-
-<p><strong>Available in 8 oz bottles.</strong></p>
-
-<a class="button" href="mailto:dustylilly6@gmail.com">
-Order Yours Today
-</a>
-
-</div>
-<div class="product-card">
-    <h3>Woodtick Pete's Original BBQ Sauce</h3>
+    <h4>Woodtick Pete's BBQ</h4>
 
     <p>
-        Our classic award-winning BBQ sauce with bold smoky flavor and the perfect balance of sweet and tangy.
+        Proudly Veteran Owned • Handcrafted in Cedar Falls, Iowa
     </p>
-
-    <p><strong>Available in 8 oz bottles.</strong></p>
-
-    <a class="button" href="mailto:dustylilly6@gmail.com">
-        Order Yours Today
-    </a>
-</div>
-
-<div class="product-card">
-    <h3>Woodtick Pete's Maple Honey BBQ Sauce</h3>
 
     <p>
-        Rich maple sweetness blended with real honey for a smooth, smoky barbecue flavor.
+        Small Batch • Real Honey • Bold Flavor
     </p>
 
-    <p><strong>Available in 8 oz bottles.</strong></p>
-
-    <a class="button" href="mailto:dustylilly6@gmail.com">
-        Order Yours Today
+    <a href="https://www.facebook.com/share/18a9TvAuk4/"
+       class="btn btn-warning"
+       target="_blank">
+       Follow Us on Facebook
     </a>
-</div>
 
-<div class="product-card">
-    <h3>Woodtick Pete's Honey Pineapple BBQ Sauce</h3>
+    <hr>
 
-    <p>
-        A sweet tropical blend of pineapple and real honey with a bold smoky finish.
-    </p>
+    <small>
+        © 2026 Woodtick Pete's BBQ. All Rights Reserved.
+    </small>
 
-    <p><strong>Available in 8 oz bottles.</strong></p>
-
-    <a class="button" href="mailto:dustylilly6@gmail.com">
-        Order Yours Today
-    </a>
-</div>
-<section id="why">
-
-<h2>Why Choose Woodtick Pete's?</h2>
-
-<div class="feature-grid">
-
-<div class="feature">
-<h3>🇺🇸 Veteran Owned</h3>
-<p>Proudly crafted by a veteran with a passion for great barbecue.</p>
-</div>
-
-<div class="feature">
-<h2>🔥 Available Flavors</h2>
-
-<ul>
-  <h3>🔥 Available Flavors</h3>
-
-<ul>
-  <h3>🔥 Available Flavors</h3>
-
-<ul>
-  <li>🥇 Original BBQ Sauce</li>
-  <li>🍯 Original Honey BBQ Sauce</li>
-  <li>🍁 Maple Honey BBQ Sauce</li>
-  <li>🍍 Honey Pineapple BBQ Sauce</li>
-</ul>
-
-<div class="feature">
-<h3>🔥 Small Batch</h3>
-<p>Every batch is carefully made for consistent, bold flavor.</p>
-</div>
-
-</div>
-
-</section>
-<div class="product-card">
-<h3>🍯 Honey BBQ Sauce</h3>
-
-
-<p>
-Our signature small-batch BBQ sauce made with real honey for the perfect balance of sweet, smoky, and bold flavor.
-</p>
-
-<p><strong>Available in 8 oz bottles.</strong></p>
-
-<a class="button" href="mailto:dustylilly6@gmail.com">
-Order Now
-</a>
-
-</div>
-
-</section>
-<ul>
-<li>Made with Real Honey</li>
-<li>Small Batch Crafted</li>
-<li>Bold Smoky Flavor</li>
-<li>Perfect for Ribs, Chicken, Pork, Burgers & Wings</li>
-</ul>
-
-
-
-
-
-<h2>About Pete</h2>
-
-<p>
-Woodtick Pete is a proud veteran from Cedar Falls, Iowa, who believes great BBQ starts with quality ingredients and real smoke.
-</p>
-
-<p>
-Every bottle is handcrafted in small batches using real honey to create a bold, sweet, smoky flavor that's perfect for ribs, chicken, pork, burgers, and more.
-</p>
-
-<p>
-Thank you for supporting a veteran-owned small business. We appreciate every customer!
-</p>
-
-</section>
-<section id="gallery">
-
-
-<h2>Customer Favorites</h2>
-
-<div class="product-card">
-    <img src="promo.jpg" alt="Woodtick Pete's BBQ Sauce" style="width:100%; border-radius:12px;">
-</div>
-
-</section>
-
-
-<section id="buy">
-
-<h2>Where to Buy</h2>
-
-<p>📍 Cedar Falls, Iowa</p>
-
-<p>Available directly from Woodtick Pete.</p>
-
-<a class="button" href="mailto:dustylilly6@gmail.com">
-Order Direct
-</a>
-
-</section>
-
-<section id="contact">
-
-<h2>Contact Pete</h2>
-
-<p>📧 dustylilly6@gmail.com</p>
-
-<a class="button" href="mailto:dustylilly6@gmail.com">
-Email Pete
-</a>
-
-<a class="button" href="https://www.facebook.com/share/18a9TvAuk4/">
-Visit us on Facebook
-</a>
-
-</section><h2>⭐⭐⭐⭐⭐ Customer Favorites</h2>
-
-<div class="product-card">
-  <p>"Best BBQ sauce I've ever had! The Honey BBQ is the perfect balance of sweet and smoky."</p>
-  <strong>★★★★★</strong>
-</div>
-
-<div class="product-card">
-  <p>"Our family loves it! Every flavor is outstanding and you can tell it's made with care."</p>
-  <strong>★★★★★ </strong>
-</div>
-
-<div class="product-card">
-  <p>"Made by a veteran, made with pride, and it tastes incredible. Highly recommended!"</p>
-  <strong>★★★★★ </strong>
-</div>
-<section id="reviews">
-
-
-</section>
-
-<section id="buy">
-
-<h2>Where To Buy</h2>
-<section id="gallery">
-
-<h2>Gallery</h2>
-
-<p>
-Photos of Woodtick Pete's BBQ Sauce, smoked ribs, chicken, pulled pork, burgers, competitions, and happy customers will be featured here.
-</p>
-
-<img src="promo.jpg"alt="Woodtick Pete's BBQ Sauce" style="width:100%;max-width:1000px;display:block;margin:auto border-radius:15px;">
-</section>
-<section id="contact">
-
-<h2>Contact Pete to Order</h2>
-
-<p>
-Ready to try Woodtick Pete's BBQ Sauce?
-</p>
-
-<p>
-Click below to place an order or ask a question.
-</p>
-
-<p>
-<a class="button" href="mailto:dustylilly6@gmail.com">
-📧 Email Pete to Order
-</a>
-</p>
-
-<p>
-<a class="button" href="https://www.facebook.com/share/18a9TvAuk4/" target="_blank">
-📘 Visit Us on Facebook
-</a>
-</p>
-
-</section>p>
-Contact Pete by Facebook or email to place an order.
-</p>
-
-</section>
-
-<section id="contact">
-
-<h2>Contact</h2>
-
-<p>
-📧
-<a href="mailto:dustylilly6@gmail.com">
-dustylilly6@gmail.com
-</a>
-</p>
-
-<p>
-<a href="https://www.facebook.com/share/18a9TvAuk4/">
-Woodtick Pete's BBQ Sauce Facebook
-</a>
-</p>
-
-</section>
-
-
-<footer style="background:#2d1b16;color:#f5d67b;text-align:center;padding:30px;margin-top:40px;border-top:2px solid #c79a3b;">
-  <h3>Woodtick Pete's BBQ Sauce</h3>
-
-  <p>🇺🇸 Proudly Veteran Owned</p>
-
-  <p>Made in Cedar Falls, Iowa</p>
-
-  <p>Real Smoke. Real Flavor. Real Good.</p>
-
-  <p>© 2026 Woodtick Pete's BBQ Sauce. All Rights Reserved.</p>
 </footer>
-<script>
-function toggleMenu() {
-  var menu = document.getElementById("nav-links");
-  menu.classList.toggle("show");
-}
-</script>
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script
 </body>
 </html>
