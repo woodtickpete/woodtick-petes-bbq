@@ -86,25 +86,7 @@ html{
     display: block;
 }
 
-.hero-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-    background: rgba(0,0,0,0.30);
-    color: #fff;
-    text-align: center;
-    padding: 20px;
-    box-sizing: border-box;
-    text-shadow: 2px 2px 8px #000;
-}
 
 .hero-overlay h1 {
     font-size: 4rem;
@@ -122,4 +104,97 @@ html{
     margin: 0 auto 20px;
 }#story{
     padding-top:60px;
+}/* ===========================
+   Woodtick Pete's Version 2.5
+   =========================== */
+
+/* Backgrounds */
+#story {
+    background: transparent;
+    padding: 60px 0;
+}
+#story .row{
+    background:#f7f1e6;
+    border-radius:20px;
+    padding:40px;
+    box-shadow:0 10px 30px rgba(0,0,0,.20);
+}
+
+#story p,
+#story h3{
+    color:#3b2418 !important;
+}
+
+#story img {
+    max-width: 100%;
+}
+#reviews{
+    background:#f4efe3;
+    padding:60px 0;
+}
+
+#real-bbq{
+    background:#5b3a29;
+    color:white;
+    padding:60px 0;
+}
+
+#buy{
+    background:#3a2418;
+    color:white;
+    padding:60px 0;
+}
+
+/* Section Headings */
+h2{
+    color:#8b1e12;
+    font-weight:700;
+}
+
+/* Sauce Cards */
+.card{
+    border:none;
+    border-radius:18px;
+    overflow:hidden;
+    transition:.3s;
+    box-shadow:0 6px 18px rgba(0,0,0,.15);
+}
+
+.card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 15px 30px rgba(0,0,0,.25);
+}
+
+/* Buttons */
+.btn-warning{
+    background:#d89b1d;
+    border:none;
+    font-weight:bold;
+    border-radius:30px;
+    padding:10px 24px;
+}
+
+.btn-warning:hover{
+    background:#b97f0c;
+}
+
+/* Gallery Images */
+#real-bbq img{
+    border-radius:15px;
+    box-shadow:0 8px 20px rgba(0,0,0,.35);
+    transition:.3s;
+}
+
+#real-bbq img:hover{
+    transform:scale(1.04);
+}
+
+/* Review Cards */
+blockquote{
+    background:white;
+    color:#333;
+    padding:25px;
+    border-left:6px solid #d89b1d;
+    border-radius:12px;
+    box-shadow:0 5px 15px rgba(0,0,0,.15);
 }
